@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <script src="./test.js"></script>
+    <link rel="stylesheet" href="./test-css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <!-- HEADER--------------------------------------------- -->
+
+    <div class="header" id="head">
+        <div class="container container-header">
+            <a class="header-logo" href="#top">LoremIpsum.<span class="text-blue">Net</span></a>
+            <button class="main-buttons-item header-nav-mob">
+                <div class="burger-flex">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </div>
+                <div style="display: none" class="burger-close">
+                    <img src="./img/close.svg" alt="x" class="burger-close-img">
+                </div>
+            </button>
+            <div class="header-nav">
+                <a class="header-nav-item" href="#">Бизнес</a>
+                <a class="header-nav-item" href="#">О нас</a>
+                <a class="header-nav-item" href="#">Цены</a>
+                <a class="header-nav-item" href="#ord">Оформить заказ</a>
+            </div>
+        </div>
+
+    </div>
+
+        
+
+
+<div class="link-mobile" style="display: none;">
+    <div class="mobile-link-flex">
+        <div class="nav-mob-item">
+            <a class="header-nav-item" href="#">Бизнес</a>
+        </div>
+        <div class="nav-mob-item">
+            <a class="header-nav-item" href="#">О нас</a>
+        </div>
+        <div class="nav-mob-item">
+            <a class="header-nav-item" href="#">Цены</a>
+        </div>
+        <div class="nav-mob-item">
+            <a class="header-nav-item" href="#ord">Оформить заказ</a>
+        </div>
+    </div>
+</div>
+
+
+    <!-- MAIN------------------------------------------------------- -->
+
+    <div class="main" id="m">
+
+        <div class="container main-flex">
+            
+            <h1><span class="text-blue">Lorem ipsum</span> dolor sit<br> amet consectetur <span class="text-blue">adipiscing</span></h1>
+            <div>
+                <h5>At vero eos et accusamus et iusto odio dignissimos ducimus!</h5>
+                <div class="main-p">
+                    <p> - Totam rem aperiam eaque ipsa</p>
+                    <p> - Sit voluptatem accusantium doloremque laudantium</p>
+                    <p> - Sed ut perspiciatis, unde omnis iste natus error</p> 
+                </div>
+            </div>
+            <div class="main-buttons">
+                <button class="main-buttons-item">Заказать</button>
+                <button class="main-buttons-item">Подробнее</button>
+            </div>
+        </div>
+    </div>
+ 
+
+  <!-- Order-------------------------------------------------------   -->
+    
+    <div class="order" id="ord">
+        <div class="container">
+            <div class="order-container">
+                <div class="order-container-text">
+                    <h2>Оформление <span class="text-blue">Заказа</span></h2>
+                    <p class="order-p">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+                </div>
+            </div>
+            
+            
+            <div class="order-steps">
+                <div class="steps-item">
+                    <img src="./img/1.png" alt="s" class="steps-item-img">
+                    <p class="steps-item-text">Lorem ipsum dolorsit amet</p>
+                </div>
+                <div class="steps-item">
+                    <img src="./img/2.png" alt="s" class="steps-item-img">
+                    <p class="steps-item-text">Сonsecteturadipiscing elit</p>
+                </div>
+                <div class="steps-item">
+                    <img src="./img/3.png" alt="s" class="steps-item-img">
+                    <p class="steps-item-text">Sed do eiusmod tempor</p>
+                </div>
+                <div class="steps-item">
+                    <img src="./img/4.png" alt="s" class="steps-item-img">
+                    <p class="steps-item-text">Esse cillum dolore eu fugiat</p>
+                </div>
+                <div class="steps-item">
+                    <img src="./img/5.png" alt="s" class="steps-item-img">
+                    <p class="steps-item-text">Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+            </div>
+
+            <form class="form"> 
+                <div class="first-fields">
+                    <select class="form-first-field" type="select" name="select">
+                        <option>Выберите тип системы</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <input class="form-first-field" type="email" name="mail" placeholder="Ваш e-mail">
+                    <input class="form-first-field" type="text" name="name-user" placeholder="Ваше имя">
+                </div>
+                <div class="second-fields">
+                    <div class="second-fields-left">
+                        <div class="left-info">
+                            <div class="info-name">Sed ut perspiciatis, unde omnis iste natus</div>
+                            <div class="info-range-per" >50%</div>
+                        </div>
+                        <input type="range" name="range" class="range">
+                    </div>
+                    <div class="second-fields-right">
+                        <label class="label-file">
+                            <img src="./img/label-img.png" alt="input-file">
+                            <div>прикрепить файл</div>
+                            <input  type="file" name="file">
+                        </label>
+                        
+                    </div>
+
+                </div>
+                <div  class="button-fields">
+                    <button class="main-buttons-item button-form" type="submit">отправить</button>
+                </div>
+                
+            </form>
+        </div> 
+
+        <!-- --------------------FOOTER---------------------------- -->
+
+    <div class="footer" id="foot">
+        <div class="container footer-cont">
+            
+                <div class="copyright">© 2018 «<span class="foot-up">LoremIpsum.net</span>» Все права защищены.</div>
+                <div class="vertical">|</div>
+                <div class="pay">
+                    <div class="pay-item">
+                        <img src="./img/payq.png" alt="q" class="pay-item img">
+                        <div class="pay-item-name">Qiwi wallet</div>
+                    </div>
+                    <div class="pay-item">
+                        <img src="./img/payya.png" alt="ya" class="pay-item img">
+                        <div class="pay-item-name">Yandex Money</div>
+                    </div>
+                    <div class="pay-item">
+                        <img src="./img/paywm.png" alt="wm" class="pay-item img">
+                        <div class="pay-item-name">Web Money</div>
+                    </div>
+                </div>
+                <div class="vertical">|</div>
+                <div class="contact">
+                    <a href="https://mail.ru/" target="_blank">
+                        <div class="contact-item">
+                            <img src="./img/mail.png" alt="mail" class="contact-item img">
+                            <div class="contact-item-name">info@ipsum228.com</div>
+                        </div>
+                    </a>
+                    <a href="https://vk.com" target="_blank">
+                        <div class="contact-item">
+                            <img src="./img/vk.png" alt="vk" class="contact-item img">
+                            <div class="contact-item-name">Мы вконтакте</div>
+                        </div>
+                    </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    </div> 
+
+    
+
+
+
+    
+</body>
+</html>
