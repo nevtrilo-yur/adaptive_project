@@ -1,1 +1,1 @@
-https://nevtrilo-yur.github.io/adaptive-project/
+https://nevtrilo-yur.github.io/adaptive_project/
